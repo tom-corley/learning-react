@@ -3,6 +3,8 @@ import LoginControl from "./LoginControl"
 import ToggleMessage from "./ToggleMessage"
 import MessageController from "./MessageController"
 import AdminStatus from "./AdminStatus"
+import GuestList from "./GuestList"
+import LikeTracker from "./LikeTracker"
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
       <MessageController />
       <p> The sixth is my own attempt at this pattern</p>
       <AdminStatus />
+      <p> The seventh is my first attempt at rendering lists using map</p>
+      <GuestList />
+      <p> The eigth is a post tracker which adds a bit more complexity</p>
+      <LikeTracker />
     </div>
   )
 }
