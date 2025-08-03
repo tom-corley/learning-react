@@ -1,0 +1,1 @@
+This repository chronicles my ongoing journey to learn and then practice react.
