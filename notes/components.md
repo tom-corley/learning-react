@@ -99,7 +99,7 @@ function ToggleMessage() {
 }
 ```
 
-Note that `? :` syntax can be used in the return statement of `jsx` but not full control flow statements, these can be done before the return. The clean way to render something if and only if something is true is {conditon && jsx}. We can also return `null if we do not wish to render a component
+Note that `? :` syntax can be used in the return statement of `jsx` but not full control flow statements, these can be done before the return. The clean way to render something if and only if something is true is {conditon && jsx}. We can also return `null` if we do not wish to render a component
 
 ## Hooks
 
